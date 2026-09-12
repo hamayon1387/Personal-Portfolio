@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!---------------------------------- Header Section ----------------------------->
+    <div id="header">
+      <div class="main">
+        <nav>
+          <div class="logo">
+            <span>P</span>
+            <span>ortfolio.</span>
+          </div>
+          <ul id="sideMinu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="fas" id="closeMinu">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+          </ul>
+          <div class="fas" id="openMinu"><i class="fa-solid fa-bars"></i></div>
+        </nav>
+        <div class="left">
+          <div class="first">Hi, I am <span>Hamayon</span></div>
+          <div class="second">and I am a Passionate</div>
+          <div class="auto">Front-End Developer</div>
+          <p>
+            I'm a Passionate Front-End Web-Developer Focuased on creating
+            responsive, user-friendly interfaces.
+          </p>
+          <div class="social">
+            <a
+              target="_blank"
+              href="https://www.facebook.com/profile.php?id=61579207925525"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a target="_blank" href=""><i class="fa-brands fa-whatsapp"></i></a>
+            <a target="_blank" href=""><i class="fa-brands fa-twitter"></i></a>
+            <a target="_blank" href="https://www.instagram.com/hamayon_nadim/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a target="_blank" href="telegram/@Hamayon1387"
+              ><i class="fa-brands fa-telegram"></i
+            ></a>
+          </div>
+        </div>
+        <div class="right">
+          <div class="bgcolor">
+            <div class="image"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------------------------------- About Section ----------------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="image2.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About <span>Me</span></h1>
+            <p class="disc">
+              i'm a detail-oreinted developer who enjoys turning ideas in to
+              visually appealing, interactive web experiences. my works focuses
+              on building responsive and accessble applications that addapt
+              perfactly to any device or screen size. <br /><br />
+              i love solving programs, exploring new technologies, and creating
+              designs that blind functionality with great user experience. my
+              aim is to deliver digital soluations that are both butefull and
+              impactful.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>HTML & CSS</span> <br />
+                  from 0 to 100 (0 - 100)
+                </li>
+                <li>
+                  <span>JavaScript</span> <br />
+                  from 0 to 100 (0 - 100)
+                </li>
+                <li>
+                  <span>React & Bootstrup</span> <br />
+                  from 0 to 100 (0 - 100)
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2024 - Acted_BYDH</span> <br />
+                  Courses
+                </li>
+                <li>
+                  <span>2023 - 2024</span> <br />Web developer in Acted_BYDH
+                </li>
+                <li>
+                  <span>2022 - 2023</span> <br />Teaching web development In
+                  Nori_Education
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2024</span> <br />
+                  Progress of front-fnd web development
+                </li>
+                <li>
+                  <span>2023</span> <br />
+                  Progress of back-end web development
+                </li>
+                <li>
+                  <span>2024 - 2025</span> <br />
+                  Progress of AI-Machiner
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------------------------ Services Section --------------------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title"><span>My</span> Services</h1>
+        <div class="services-list">
+          <div>
+            <span class="code"><i class="fa-solid fa-code"></i></span>
+            <h2>F-E Development</h2>
+            <p>
+              I well creat for you profissional web pages using from HTML, CSS,
+              JavaScript, React and Bootstrup.
+            </p>
+            <a href="#">Leran more</a>
+          </div>
+          <div>
+            <span class="code"><i class="fa-solid fa-crop-simple"></i></span>
+            <h2>Fream-Works</h2>
+            <p>
+              I well creat for you profissional web pages using from
+              Tailwind-CSS, MangoDB, Get & GetHob.
+            </p>
+            <a href="#">Leran more</a>
+          </div>
+          <div>
+            <span class="code"><i class="fa-solid fa-circle-nodes"></i></span>
+            <h2>B-E Development</h2>
+            <p>
+              I well creat for you profissional web pages using from Node.JS,
+              MangoDB, Get & GetHob.
+            </p>
+            <a href="#">Leran more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------------------- Portfolio Section -------------------------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title"><span>My</span> Works</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="image3.jpg" />
+            <div class="layer">
+              <h3>The Netflix Clone</h3>
+              <p>
+                I was develop the Portfolio web page Using From HTML, CSS &
+                JavaScript.
+              </p>
+              <span class="save"
+                ><i class="fa-solid fa-cart-arrow-down"></i
+              ></span>
+            </div>
+          </div>
+          <div class="work">
+            <img src="image4.jpg" />
+            <div class="layer">
+              <h3>The UE Clone</h3>
+              <p>
+                I was develop the Portfolio web page Using From HTML, CSS &
+                JavaScript.
+              </p>
+              <span class="save"
+                ><i class="fa-solid fa-cart-arrow-down"></i
+              ></span>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Ai.jpg" />
+            <div class="layer">
+              <h3>My Portfolio Clone</h3>
+              <p>
+                I was develop the Portfolio web page Using From HTML, CSS &
+                JavaScript.
+              </p>
+              <span class="save"
+                ><i class="fa-solid fa-cart-arrow-down"></i
+              ></span>
+            </div>
+          </div>
+        </div>
+        <a href="#portfoli" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-- --------------------- Contact Section -------------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact <span>Me</span></h1>
+            <p>
+              <big
+                ><b
+                  ><span style="font-size: 30px; color: #ff004f"
+                    ><i class="fa-regular fa-envelope"></i></span></b
+              ></big>
+              contact@example.com
+            </p>
+            <p><i class="fa-solid fa-phone-flip"></i> 0123456789</p>
+            <div class="social-icons">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/profile.php?id=61579207925525"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a target="_blank" href=""
+                ><i class="fa-brands fa-telegram"></i
+              ></a>
+              <a target="_blank" href=""
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+              <a target="_blank" href="https://github.com/hamayon1387"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <a href="" class="btn btn2" download>Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Massage"
+                rows="6"
+                placeholder="Your Massages"
+              ></textarea>
+              <button type=" submit " class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
